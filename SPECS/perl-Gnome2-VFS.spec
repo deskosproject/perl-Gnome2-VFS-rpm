@@ -1,6 +1,6 @@
 Name:           perl-Gnome2-VFS
 Version:        1.082
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Perl interface to the 2.x series of the GNOME VFS library
 License:        LGPLv2+
 Group:          Development/Libraries
@@ -67,6 +67,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Nov 25 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.0182-2
+- Rebuilt for DeskOS
+
 * Wed Oct 02 2013 Jitka Plesnikova <jplesnik@redhat.com> - 0.0182-1
 - 0.0182 bump
 - Update dependencies
